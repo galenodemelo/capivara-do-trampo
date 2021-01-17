@@ -1,0 +1,23 @@
+.application-detail {
+    position: relative;
+    display: none;
+    background-color: #ffffff;
+    padding: 16px 0;
+    margin-top: 32px;
+
+    &::before {
+        position: absolute;
+        left: 35px;
+        top: 9%;
+        content: "";
+        background-color: #757575;
+        height: 75%;
+        width: 2px;
+        z-index: 0;
+    }
+
+    > * {
+        position: relative;
+        z-index: 9999;
+    }
+}

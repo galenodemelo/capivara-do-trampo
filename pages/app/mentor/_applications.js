@@ -1,3 +1,10 @@
+import ApplicationDetail from "./_applicationDetail"
+
+function showDetails() {
+    document.querySelector("#applications-list").style.display = "none"
+    document.querySelector("#application-detail").style.display = "block"
+}
+
 export default function Applications() {
     return (
         <div className="boxed-content">
@@ -47,6 +54,8 @@ export default function Applications() {
                     </span>
                 </div>
             </div>
+
+            <ApplicationDetail />
         </div>
     )
 }
