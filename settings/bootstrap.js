@@ -1,4 +1,3 @@
-const { db } = require("../database/connection")
 const dbConnection = require("../database/connection")
 
 dbConnection.run(`
