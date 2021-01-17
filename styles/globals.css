@@ -154,14 +154,16 @@ button {
     background-color: #ffffff;
 }
 
-.box-row {
-    display: flex;
-    justify-content: center;
-}
+@media screen and (min-width: 760px) {
+    .box-row {
+        display: flex;
+        justify-content: center;
+    }
 
-.box-row .box {
-    max-width: 360px;
-    margin: 32px;
+    .box-row .box {
+        max-width: 360px;
+        margin: 32px;
+    }
 }
 
 .box h3 {
