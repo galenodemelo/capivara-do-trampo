@@ -47,6 +47,17 @@ button {
     margin-top: 32px;
 }
 
+
+.mdl-textfield--icon-label .mdl-textfield__input, .mdl-textfield--icon-label .mdl-textfield__label {
+    padding-left: 24px !important;
+    box-sizing: border-box;
+}
+
+.mdl-textfield--icon-label .material-icons {
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
 .material-icons.md-12 {
     font-size: 12px;
 }
