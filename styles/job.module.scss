@@ -1,0 +1,26 @@
+.detail {
+    
+    header {
+        display: grid;
+        grid-template-columns: 24px auto;
+        align-items: center;
+        column-gap: 12px;
+        margin-bottom: 0;
+        border-bottom: lightgray solid 1px;
+
+        small {
+            display: block;
+        }
+
+        h1 {
+            font-size: 14px;
+        }
+    }
+
+    .description {
+        h2 {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+    }
+}
