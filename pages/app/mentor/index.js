@@ -15,6 +15,7 @@ export default function Mentor() {
                     <a href="#notifications" className="mdl-tabs__tab">
                         <span className="mdl-badge" data-badge="4">Notificações</span>
                     </a>
+                    <a href="#students" className="mdl-tabs__tab">Mentoria</a>
                 </div>
 
                 <div className="mdl-tabs__panel is-active" id="applications">
@@ -22,6 +23,9 @@ export default function Mentor() {
                 </div>
                 <div className="mdl-tabs__panel" id="notifications">
                     <Notifications />
+                </div>
+                <div className="mdl-tabs__panel" id="students">
+                    <Students />
                 </div>
             </div>
         </Layout>
